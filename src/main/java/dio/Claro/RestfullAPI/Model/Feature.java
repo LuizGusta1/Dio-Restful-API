@@ -1,9 +1,6 @@
 package dio.Claro.RestfullAPI.Model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
 @Entity(name = "tb_feature")
 public class Feature extends BaseItem{
